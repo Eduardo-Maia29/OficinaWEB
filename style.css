@@ -1,0 +1,31 @@
+h1.class1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(130, 0, 252);
+}
+
+/*  Desse jeito, todas as tags "h1" que possuirem a classe "class1" possuirão essas cores 
+
+    Se escrito como "h1, .class1" todas as tags que tenham h1 OU class1 possuirão essas cores
+*/
+
+p.class2{
+
+color: rgb(223, 135, 4);
+background-color: rgb(0, 0, 0)
+}
+
+.class3{
+
+color: darkslateblue;
+background-color: firebrick
+
+}   /*Tudo que tiver apenas o class3 será colorido*/
+
+#id{
+
+color: darkred;
+background-color: darkgray;
+font-family: Arial, Helvetica, sans-serif;
+}   /* O #id (nome pode variar) serve para especificar, dentro de um grupo em que há repetiçoes, qual deles tera a cor darkred e essa fontizinha bonitinha. Olhar linha 97 no Teste.html*/
+
+/*Ordem de prioridade  inline> ID > Class > Tag */
