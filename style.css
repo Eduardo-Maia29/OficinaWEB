@@ -26,6 +26,12 @@ background-color: firebrick
 color: darkred;
 background-color: darkgray;
 font-family: Arial, Helvetica, sans-serif;
-}   /* O #id (nome pode variar) serve para especificar, dentro de um grupo em que há repetiçoes, qual deles tera a cor darkred e essa fontizinha bonitinha. Olhar linha 97 no Teste.html*/
+}   /* O #id (nome pode variar) serve para especificar, dentro de um grupo em que há repetiçoes, qual deles tera a cor darkred e essa fontizinha bonitinha. Olhar linha 116 no Teste.html*/
 
 /*Ordem de prioridade  inline> ID > Class > Tag */
+
+.girat{
+    height: 500px;
+    float: right;
+
+}
