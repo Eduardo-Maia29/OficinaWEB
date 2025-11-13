@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Layout padrão (celular) */
+  main {
+    display: flex;
+    flex-direction: column; /* empilhado */
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  aside, section, article {
+    padding: 20px;
+    color: white;
+  }
+  
+  aside { background: #0077b6; }
+  section { background: #00b4d8; }
+  article { background: #90e0ef; }
+  
+  @media (min-width: 768px) { /*Se o site for aberto em uma tela com largura menor que 768px, ele vai seguir esse novo formato*/
+    main {
+      flex-direction: row;
+    }
+  
+    aside {
+      flex: 1;
+    }
+  
+    section {
+      flex: 2;
+    }
+  
+    article {
+      flex: 1;
+    }
+  }
